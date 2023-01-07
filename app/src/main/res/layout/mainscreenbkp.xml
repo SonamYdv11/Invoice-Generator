@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/theme"
+    android:orientation="vertical" >
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout44"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00569a"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/btnHomeScreen"
+            android:layout_marginRight="50dp"
+            android:layout_width="108dp"
+            android:layout_height="70dp"
+            android:src="@drawable/header" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vyapar"
+            android:layout_gravity="center|left"
+            android:textColor="#FFFFFF"
+            android:textSize="40dp"/>
+    </LinearLayout>
+
+ <!--<LinearLayout-->
+        <!--android:id="@+id/linearLayout44"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="#00569a"-->
+        <!--android:orientation="horizontal" >-->
+	<!---->
+        <!--<ImageButton-->
+            <!--android:id="@+id/btnHomeScreen"-->
+            <!--android:layout_marginRight="50dp"-->
+            <!--android:layout_width="108dp"-->
+            <!--android:layout_height="70dp"-->
+            <!--android:src="@drawable/header" />-->
+		<!--<Button-->
+            <!--android:id="@+id/BtnMnuInvoice"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginRight="50dp"-->
+            <!--android:layout_marginTop="18dp"-->
+            <!--android:background="@drawable/mnuinvoice"-->
+            <!--/>-->
+        <!---->
+          <!---->
+          <!--<Button-->
+            <!--android:id="@+id/BtnMnuMasters"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginRight="50dp"-->
+            <!--android:layout_marginTop="18dp"-->
+            <!--android:background="@drawable/mnumaster"-->
+             <!--/>-->
+        <!---->
+          <!---->
+          <!--<Button-->
+            <!--android:id="@+id/BtnMnuLists"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginRight="30dp"-->
+            <!--android:layout_marginTop="18dp"-->
+            <!--android:background="@drawable/mnulists"-->
+             <!--/>-->
+        <!--<ImageButton-->
+            <!--android:id="@+id/btnBack"-->
+            <!--android:layout_width="84dp"-->
+            <!--android:layout_height="70dp"-->
+            <!--android:src="@drawable/back" />-->
+    <!--</LinearLayout>-->
+    
+ 
+    <ImageButton
+        android:id="@+id/btninvoice"
+        android:layout_width="378dp"
+        android:layout_height="73dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="65dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/invoices"         />
+
+    <ImageButton
+        android:id="@+id/btnproducts"
+        android:layout_width="378dp"
+        android:layout_height="73dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="30dp"
+        android:src="@drawable/product" />
+
+    <ImageButton
+        android:id="@+id/btncompany"
+        android:layout_width="378dp"
+        android:layout_height="73dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="30dp"
+        android:src="@drawable/company" />
+
+    <ImageButton
+        android:id="@+id/btncustomer"
+        android:layout_width="378dp"
+        android:layout_height="73dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="30dp"
+        android:src="@drawable/customer" />
+
+    <ImageButton
+        android:id="@+id/btnsupplier"
+        android:layout_width="378dp"
+        android:layout_height="73dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="30dp"
+        android:src="@drawable/supplier" />
+
+    <ImageButton
+        android:id="@+id/btnfinancials"
+        android:layout_width="378dp"
+        android:layout_height="73dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="30dp"
+        android:src="@drawable/financials" />
+
+    <ImageButton
+        android:id="@+id/btnhelp"
+        android:layout_width="378dp"
+        android:layout_height="73dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="65dp"
+        android:src="@drawable/btnhelp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#e5e5e5"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/btnsetting"
+            android:layout_width="378dp"
+            android:layout_height="105dp"
+            android:src="@drawable/setting" />
+
+        <ImageButton
+            android:id="@+id/btnfolders"
+            android:layout_width="420dp"
+            android:layout_height="105dp"
+            android:src="@drawable/folders" />
+    </LinearLayout>
+    
+    <TextView
+        android:id="@+id/txtfooter"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="#000"
+        android:linksClickable="true"
+        android:text="    Version 1.1 Copy right@2011 All rights Reserved                                              Developed by Jk Designs Solutions Pvt Ltd" />
+
+</LinearLayout>

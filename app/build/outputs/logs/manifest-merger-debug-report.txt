@@ -1,0 +1,305 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:2:1-88:12
+INJECTED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:2:1-88:12
+INJECTED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:2:1-88:12
+INJECTED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:2:1-88:12
+MERGED from [com.android.support.constraint:constraint-layout:2.0.0-beta2] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\0ea8ddba2f8d32e5c3c105d03e4c1e20\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\a0b5cfda4912d75ddf1120b3a4d690b0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\e3f8534bcea025204ef72defd0743661\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\af1ba2a5e7acf8340040ea58613b84fb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:gridlayout-v7:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\5e2ae9d5d16088c150fd86c5c9b3a3ef\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\6d7c26a98c0c91782ffba23e1113230a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\8387db23ccd30b9bbe1c4af945e8fc20\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\c7e0277f6dc7836e531c3ee12522d07c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\83afc848b5dea0476ba8f298f7996ad7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\bc23b9123b52344630489b1f083ad8cd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\23e0e67ee41328b1d0ef0fb32100084d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\bef16eebda419975247a31f397c4f643\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\71d64ea6566012d04ddae617f5ebd15d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\4a289960d4eb0010df53c6f24bd83b1f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\818b172b33353d007e1ec64e12cbaa90\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\26d0cd04e6549c5a2bc496054321976c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\1381ae5666d5c6b7a8dee127826f67cf\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\2933d7b3e18d4c03833b84ba14bdbdb4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\6b4228a7340547975dc2cf5d0994c482\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\0a9a475a007ede23a4876f21c6d12a44\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\907d5682f419854e1ee719623e7f09f9\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\090aa2071c09feea7be5955f6f0a7cbf\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\73d522db07668e23431d4d70ea83425e\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\2f3de7468d7d7707ba9f84172ff715a5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\395430ebc61ea0629f02acce8ce00f83\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\2eb1a50d831acf4e054966dd5c0dcafe\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\0e0ab06a545efba6c2becadf93beeccb\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\43ca32c89ec8a67fa613f47763bf61c3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\3cbc9d5604f46d0f0e5dc0c4403bffaa\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\f8c643e9421bdf54ddee0e66db944bc1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\16808a2eee229c49b19b9c5055077237\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\be5f0ecefcb4e4a03f7fd069f821a9d6\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:2:1-88:12
+INJECTED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:2:1-88:12
+INJECTED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:2:1-88:12
+	package
+		ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:3:5-31
+		INJECTED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml
+		INJECTED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml
+		INJECTED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml
+		INJECTED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:7:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:8:22-77
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:9:5-76
+	android:name
+		ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:9:22-73
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:10:5-71
+	android:name
+		ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:10:22-68
+uses-permission#android.permission.INTERNET
+ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:11:22-64
+application
+ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:13:5-86:19
+MERGED from [com.android.support.constraint:constraint-layout:2.0.0-beta2] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\0ea8ddba2f8d32e5c3c105d03e4c1e20\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:2.0.0-beta2] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\0ea8ddba2f8d32e5c3c105d03e4c1e20\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\a0b5cfda4912d75ddf1120b3a4d690b0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\a0b5cfda4912d75ddf1120b3a4d690b0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\907d5682f419854e1ee719623e7f09f9\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\907d5682f419854e1ee719623e7f09f9\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\090aa2071c09feea7be5955f6f0a7cbf\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\090aa2071c09feea7be5955f6f0a7cbf\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\907d5682f419854e1ee719623e7f09f9\AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:15:9-41
+	android:icon
+		ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:14:9-45
+	android:theme
+		ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:16:9-67
+activity#fotl.vyaapar.acq.Login
+ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:17:9-52
+	android:name
+		ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:17:19-40
+provider#android.support.v4.content.FileProvider
+ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:19:9-27:20
+	android:grantUriPermissions
+		ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:23:13-47
+	android:authorities
+		ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:21:13-60
+	android:exported
+		ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:22:13-37
+	android:name
+		ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:20:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:24:13-26:64
+	android:resource
+		ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:26:17-51
+	android:name
+		ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:25:17-67
+activity#fotl.vyaapar.acq.AboutUS
+ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:29:9-31:72
+	android:label
+		ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:31:13-60
+	android:name
+		ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:30:13-36
+activity#fotl.vyaapar.acq.MenuForm2
+ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:32:9-47
+	android:name
+		ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:32:19-44
+activity#fotl.vyaapar.acq.VyaaparActivity
+ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:33:9-41:20
+	android:label
+		ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:35:13-45
+	android:name
+		ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:34:13-44
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:36:13-40:29
+action#android.intent.action.MAIN
+ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:37:17-69
+	android:name
+		ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:37:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:39:17-77
+	android:name
+		ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:39:27-74
+activity#fotl.vyaapar.acq.MenuForm
+ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:42:9-44:48
+	android:label
+		ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:44:13-45
+	android:name
+		ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:43:13-37
+activity#fotl.vyaapar.acq.ProductMaster
+ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:45:9-47:48
+	android:label
+		ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:47:13-45
+	android:name
+		ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:46:13-42
+activity#fotl.vyaapar.acq.CustomerMaster
+ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:48:9-50:48
+	android:label
+		ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:50:13-45
+	android:name
+		ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:49:13-43
+activity#fotl.vyaapar.acq.CompanyContact
+ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:51:9-53:48
+	android:label
+		ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:53:13-45
+	android:name
+		ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:52:13-43
+activity#fotl.vyaapar.acq.Company
+ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:54:9-56:48
+	android:label
+		ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:56:13-45
+	android:name
+		ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:55:13-36
+activity#fotl.vyaapar.acq.ProductList
+ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:57:9-59:48
+	android:label
+		ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:59:13-45
+	android:name
+		ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:58:13-40
+activity#fotl.vyaapar.acq.CustomerList
+ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:60:9-62:48
+	android:label
+		ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:62:13-45
+	android:name
+		ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:61:13-41
+activity#fotl.vyaapar.acq.InvoiceOptions
+ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:63:9-65:48
+	android:label
+		ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:65:13-45
+	android:name
+		ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:64:13-43
+activity#fotl.vyaapar.acq.InvoiceCreation
+ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:66:9-68:48
+	android:label
+		ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:68:13-45
+	android:name
+		ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:67:13-44
+activity#fotl.vyaapar.acq.Folders
+ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:69:9-71:48
+	android:label
+		ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:71:13-45
+	android:name
+		ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:70:13-36
+activity#fotl.vyaapar.acq.InvoiceList
+ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:72:9-74:48
+	android:label
+		ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:74:13-45
+	android:name
+		ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:73:13-40
+activity#fotl.vyaapar.acq.FProductList
+ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:75:9-79:74
+	android:label
+		ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:77:13-45
+	android:windowSoftInputMode
+		ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:79:13-71
+	android:theme
+		ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:78:13-56
+	android:name
+		ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:76:13-41
+activity#fotl.vyaapar.acq.Email
+ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:80:9-82:48
+	android:label
+		ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:82:13-45
+	android:name
+		ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:81:13-34
+activity#fotl.vyaapar.acq.Masters
+ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:83:9-85:48
+	android:label
+		ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:85:13-45
+	android:name
+		ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml:84:13-36
+uses-sdk
+INJECTED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml
+INJECTED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support.constraint:constraint-layout:2.0.0-beta2] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\0ea8ddba2f8d32e5c3c105d03e4c1e20\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:2.0.0-beta2] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\0ea8ddba2f8d32e5c3c105d03e4c1e20\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\a0b5cfda4912d75ddf1120b3a4d690b0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\a0b5cfda4912d75ddf1120b3a4d690b0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\e3f8534bcea025204ef72defd0743661\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\e3f8534bcea025204ef72defd0743661\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\af1ba2a5e7acf8340040ea58613b84fb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\af1ba2a5e7acf8340040ea58613b84fb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:gridlayout-v7:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\5e2ae9d5d16088c150fd86c5c9b3a3ef\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:gridlayout-v7:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\5e2ae9d5d16088c150fd86c5c9b3a3ef\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\6d7c26a98c0c91782ffba23e1113230a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\6d7c26a98c0c91782ffba23e1113230a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\8387db23ccd30b9bbe1c4af945e8fc20\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\8387db23ccd30b9bbe1c4af945e8fc20\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\c7e0277f6dc7836e531c3ee12522d07c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\c7e0277f6dc7836e531c3ee12522d07c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\83afc848b5dea0476ba8f298f7996ad7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\83afc848b5dea0476ba8f298f7996ad7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\bc23b9123b52344630489b1f083ad8cd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\bc23b9123b52344630489b1f083ad8cd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\23e0e67ee41328b1d0ef0fb32100084d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\23e0e67ee41328b1d0ef0fb32100084d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\bef16eebda419975247a31f397c4f643\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\bef16eebda419975247a31f397c4f643\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\71d64ea6566012d04ddae617f5ebd15d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\71d64ea6566012d04ddae617f5ebd15d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\4a289960d4eb0010df53c6f24bd83b1f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\4a289960d4eb0010df53c6f24bd83b1f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\818b172b33353d007e1ec64e12cbaa90\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\818b172b33353d007e1ec64e12cbaa90\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\26d0cd04e6549c5a2bc496054321976c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\26d0cd04e6549c5a2bc496054321976c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\1381ae5666d5c6b7a8dee127826f67cf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\1381ae5666d5c6b7a8dee127826f67cf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\2933d7b3e18d4c03833b84ba14bdbdb4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\2933d7b3e18d4c03833b84ba14bdbdb4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\6b4228a7340547975dc2cf5d0994c482\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\6b4228a7340547975dc2cf5d0994c482\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\0a9a475a007ede23a4876f21c6d12a44\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\0a9a475a007ede23a4876f21c6d12a44\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\907d5682f419854e1ee719623e7f09f9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\907d5682f419854e1ee719623e7f09f9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\090aa2071c09feea7be5955f6f0a7cbf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\090aa2071c09feea7be5955f6f0a7cbf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\73d522db07668e23431d4d70ea83425e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\73d522db07668e23431d4d70ea83425e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\2f3de7468d7d7707ba9f84172ff715a5\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\2f3de7468d7d7707ba9f84172ff715a5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\395430ebc61ea0629f02acce8ce00f83\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\395430ebc61ea0629f02acce8ce00f83\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\2eb1a50d831acf4e054966dd5c0dcafe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\2eb1a50d831acf4e054966dd5c0dcafe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\0e0ab06a545efba6c2becadf93beeccb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\0e0ab06a545efba6c2becadf93beeccb\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\43ca32c89ec8a67fa613f47763bf61c3\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\43ca32c89ec8a67fa613f47763bf61c3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\3cbc9d5604f46d0f0e5dc0c4403bffaa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\3cbc9d5604f46d0f0e5dc0c4403bffaa\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\f8c643e9421bdf54ddee0e66db944bc1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\f8c643e9421bdf54ddee0e66db944bc1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\16808a2eee229c49b19b9c5055077237\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\16808a2eee229c49b19b9c5055077237\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\be5f0ecefcb4e4a03f7fd069f821a9d6\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\91835\.gradle\caches\transforms-2\files-2.1\be5f0ecefcb4e4a03f7fd069f821a9d6\AndroidManifest.xml:20:5-44
+INJECTED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml
+INJECTED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml
+		ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml
+		INJECTED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml
+		ADDED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml
+		INJECTED from D:\sonam\tybsc project\vyaapar4\app\src\main\AndroidManifest.xml

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="text_para" >
+        "           J.K. DESIGNS \n\nThe Original is a brand that is coveted for its promise of innovative designs, exemplary quality of workmanship and trust that spans over years.\n\nOur brand has been synonymous with jewellery for weddings, celebrations and festive occasions as well for everyday wear for young India that has electric taste and seeks jewellery that is aspirational.
+        Our enduring collection of aesthetically designed pieces epitomises the spirit of femininity, elegance and grace.\n
+        Inspired by our legacy and by staying true to the values of trust, quality and craftsmanship that we have inherited, we have carved a niche for ourselves.
+        We have been at the forefront of designing traditional as well as contemporary collections and are trendsetters setting benchmarks of excellence in all that we do.
+        Every jewellery piece comes with a buyback guarantee.\n\n "
+    </string>
+    <string name="copright">Version 1.1 Copy right@2011 All rights Reserved Developed by Jk Designs Pvt Ltd</string>
+    <string name="hello">Hello World, VyaaparActivity!</string>
+    <string name="paddingleft">3dp</string>
+    <string name="app_name">Vyaapar</string>
+    <string name="CustType">Select Customer Type</string>
+    <string-array name="CustTypeArray">
+        <item>Credit</item>
+        <item>Cash</item>
+    </string-array>
+    <string name="InvoiceType">Select Invoice Type</string>
+    <string-array name="InvoiceTypeArray">
+        <item>Order Estimate Not executed</item>
+        <item>Invoice</item>
+    </string-array>
+    <string-array name="Invoices_array">
+        <item>Invoices</item>
+    </string-array>
+    <string-array name="Master_array">
+        <item>Product</item>
+        <item>Company</item>
+        <item>Customer</item>
+    </string-array>
+    <string-array name="Lists_array">
+        <item>Invoices</item>
+        <item>Products</item>
+        <item>Customers</item>
+    </string-array>
+    <string name="title_activity_about_us">AboutUS</string>
+</resources>

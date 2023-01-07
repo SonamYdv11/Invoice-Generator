@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/masterbg"
+    android:orientation="vertical" >
+
+     <LinearLayout
+        android:id="@+id/linearLayout44"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#00569a"
+        android:orientation="horizontal" >
+	
+        <ImageButton
+            android:id="@+id/btnHomeScreen"
+            android:layout_marginRight="50dp"
+            android:layout_width="108dp"
+            android:layout_height="70dp"
+            android:src="@drawable/header" />
+		<Button
+            android:id="@+id/BtnMnuInvoice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/mnuinvoice"
+            />
+        
+          
+          <Button
+            android:id="@+id/BtnMnuMasters"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/mnumaster"
+             />
+        
+          
+          <Button
+            android:id="@+id/BtnMnuLists"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/mnulists"
+             />
+    </LinearLayout>
+    
+ 
+    <ImageButton
+        android:id="@+id/btninvoice"
+        android:layout_width="378dp"
+        android:layout_height="73dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="65dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/invoices"         />
+
+    <ImageButton
+        android:id="@+id/btnproducts"
+        android:layout_width="378dp"
+        android:layout_height="73dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="30dp"
+        android:src="@drawable/product" />
+
+    <ImageButton
+        android:id="@+id/btncompany"
+        android:layout_width="378dp"
+        android:layout_height="73dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="30dp"
+        android:src="@drawable/company" />
+
+    <ImageButton
+        android:id="@+id/btncustomer"
+        android:layout_width="378dp"
+        android:layout_height="73dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="30dp"
+        android:src="@drawable/customer" />
+
+  
+   
+</LinearLayout>
+

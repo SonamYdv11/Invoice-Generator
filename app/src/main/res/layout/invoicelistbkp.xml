@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/folderbg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout44"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#00569a"
+        android:orientation="horizontal" >
+
+       <ImageButton
+            android:id="@+id/btnHomeScreen"
+            android:layout_marginRight="50dp"
+            android:layout_width="108dp"
+            android:layout_height="70dp"
+            android:src="@drawable/header" />
+		<Button
+            android:id="@+id/BtnMnuInvoice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/mnuinvoice"
+            />
+        
+          
+          <Button
+            android:id="@+id/BtnMnuMasters"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/mnumaster"
+             />
+        
+          
+          <Button
+            android:id="@+id/BtnMnuLists"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/mnulists"
+             />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Invoice List"
+         android:layout_marginLeft="30dp"
+    	android:layout_marginRight="20dp"
+        android:textColor="#000"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/invoiceFilterText"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:hint="Search Keyword"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/search"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" >
+    </EditText>
+
+<ListView
+    android:id="@+id/InvoiceListView"
+    android:layout_width="740dp"
+    android:layout_height="1020dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="50dp"
+    android:choiceMode="multipleChoice" />
+
+<ListView
+        android:id="@+id/lvList"
+        android:layout_width="740dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="1dp"
+        android:cacheColorHint="#000000"
+        android:dividerHeight="1dip"
+        android:visibility="invisible" >
+    </ListView>
+</LinearLayout>

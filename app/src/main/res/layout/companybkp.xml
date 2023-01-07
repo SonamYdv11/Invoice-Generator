@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/settingsbg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout44"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#00569a"
+        android:orientation="horizontal" >
+
+         <ImageButton
+            android:id="@+id/btnHomeScreen"
+            android:layout_marginRight="50dp"
+            android:layout_width="108dp"
+            android:layout_height="70dp"
+            android:src="@drawable/header" />
+		<Button
+            android:id="@+id/BtnMnuInvoice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/mnuinvoice"
+            />
+
+
+          <Button
+            android:id="@+id/BtnMnuMasters"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/mnumaster"
+             />
+
+
+          <Button
+            android:id="@+id/BtnMnuLists"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/mnulists"
+             />
+    </LinearLayout>
+<TextView
+        android:id="@+id/textView100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Company Creation"
+        android:layout_marginLeft="20dp"
+    	android:layout_marginRight="5dp"
+        android:textColor="#000"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp" >
+
+        <Button
+            android:id="@+id/btnCompanyLogo"
+            android:layout_width="fill_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/setlogo" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp" >
+
+        <Button
+            android:id="@+id/btnInvoiceOptions"
+            android:layout_width="fill_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/setoptions" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp" >
+
+        <Button
+            android:id="@+id/btnCompany"
+            android:layout_width="743dp"
+            android:layout_height="55dp"
+            android:background="@drawable/setcompanydetails" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp" >
+
+        <Button
+            android:id="@+id/btnContactInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:background="@drawable/setcontactinformation" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp" >
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="103dp"
+            android:layout_height="55dp"
+            android:text="Country" />
+
+        <EditText
+            android:id="@+id/txtCompanyCountry"
+            android:enabled="false"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/settextbutton"
+            android:layout_width="283dp"
+            android:layout_height="39dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="India" >
+        </EditText>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="742dp"
+        android:layout_height="2dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/setline" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp" >
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="109dp"
+            android:layout_height="55dp"
+            android:text="Tax" />
+
+        <EditText
+            android:id="@+id/txtCompanyTax"
+            android:layout_width="283dp"
+            android:layout_height="39dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/settextbutton"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="742dp"
+        android:layout_height="2dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/setline" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp" >
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="126dp"
+            android:layout_height="55dp"
+            android:text="Tax Reg No. (TIN)" />
+
+        <EditText
+            android:id="@+id/txtCompanyTIN"
+            android:layout_width="283dp"
+            android:layout_height="39dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/settextbutton"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="742dp"
+        android:layout_height="2dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/setline" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal" >
+
+        <Button
+            android:id="@+id/btnCompanySave"
+            android:layout_width="118dp"
+            android:layout_height="48dp"
+            android:background="@drawable/setsave"
+            android:text="" />
+
+        <Button
+            android:id="@+id/btnCompanyCancel"
+            android:layout_width="137dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/setcancel"
+            android:text="" />
+    </LinearLayout>
+
+</LinearLayout>

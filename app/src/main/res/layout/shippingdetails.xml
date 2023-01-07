@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e5e5e5"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_marginLeft="20dp"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Shipping Amount"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/txtShipAmount"
+            android:layout_width="136dp"
+            android:layout_height="36dp"
+            android:background="@drawable/txtdate"
+            android:inputType="number"
+            android:layout_marginRight="20dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="250dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:text="Shipping Date"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/txtShipDate"
+            android:layout_width="136dp"
+            android:layout_height="36dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/txtdate"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="250dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:text="Shipping Via"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/txtShipVia"
+            android:layout_width="136dp"
+            android:layout_height="36dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/txtdate"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" >
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="250dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:text="Tracking #"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/txtShipTrack"
+            android:layout_width="136dp"
+            android:layout_height="36dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/txtdate"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" >
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="250dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:text="Shipping Notes"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/txtShipNotes"
+            android:layout_width="136dp"
+            android:layout_height="36dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/txtdate"
+            android:inputType="textPostalAddress"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" />
+    </LinearLayout>
+<LinearLayout
+        android:id="@+id/linearLayout55"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+    <Button
+        android:id="@+id/btnShipSave"
+         android:layout_width="118dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/setsave" />
+</LinearLayout>
+</LinearLayout>

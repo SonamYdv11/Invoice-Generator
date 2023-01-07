@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e2e3e3"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout44"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#00569a"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/btnHomeScreen"
+            android:layout_marginRight="50dp"
+            android:layout_width="108dp"
+            android:layout_height="70dp"
+            android:src="@drawable/header" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Invoice Options"
+            android:layout_gravity="center|left"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <CheckBox
+            android:id="@+id/chkQty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:checked="true"
+            android:enabled="false"
+            android:text="Quantity Columns" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:textColor="#505050"
+            android:text="show Qty columns on the invoice including Amount column."
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:layout_width="742dp"
+            android:layout_height="2dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/setline" />
+
+        <CheckBox
+            android:id="@+id/chkShipping"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:checked="true"
+            android:enabled="false"
+            android:text="Shipping Fields" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:textColor="#505050"
+            android:text="show Shipping fields on the invoice like shipping Amount, shipping Date etc."
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:layout_width="742dp"
+            android:layout_height="2dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/setline" />
+
+        <CheckBox
+            android:id="@+id/chkProductcode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:checked="true"
+            android:enabled="false"
+            android:text="Product Code" />
+
+        <TextView
+            android:id="@+id/textViewproductCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:textColor="#505050"
+            android:text="show product code on the invoice for inventory business."
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:layout_width="742dp"
+            android:layout_height="2dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/setline" />
+
+        <CheckBox
+            android:id="@+id/chkRate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:checked="true"
+            android:enabled="false"
+            android:text="Rate" />
+
+        <TextView
+            android:id="@+id/textViewRate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:textColor="#505050"
+            android:text="show Rate on the invoice including Amount columns."
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:layout_width="742dp"
+            android:layout_height="2dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/setline" />
+
+        <CheckBox
+            android:id="@+id/chkDiscount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:checked="true"
+            android:enabled="false"
+            android:text="Discount" />
+
+        <TextView
+            android:id="@+id/textViewDiscount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:textColor="#505050"
+            android:text="show Discount on the invoice including Amount columns."
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:layout_width="742dp"
+            android:layout_height="2dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/setline" />
+
+        <CheckBox
+            android:id="@+id/chkTax"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:checked="true"
+            android:enabled="false"
+            android:text="TAX" />
+
+        <TextView
+            android:id="@+id/textViewTAX"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:textColor="#505050"
+            android:text="show TAX and TIN data on the Invoice."
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:layout_width="742dp"
+            android:layout_height="2dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/setline" />
+
+        <CheckBox
+            android:id="@+id/chkPdesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:checked="true"
+            android:enabled="false"
+            android:text="Product Description" />
+
+        <TextView
+            android:id="@+id/textViewPDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:textColor="#505050"
+            android:text="show Product Description columns on the invoice."
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:layout_width="742dp"
+            android:layout_height="2dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/setline" />
+
+        <CheckBox
+            android:id="@+id/chkpkg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:checked="true"
+            android:enabled="false"
+            android:text="Package Charges" />
+
+        <TextView
+            android:id="@+id/textViewpkg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:textColor="#505050"
+            android:text="show Package charges on the invoice."
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:layout_width="742dp"
+            android:layout_height="2dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/setline" />
+
+        <CheckBox
+            android:id="@+id/chkIH"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:checked="true"
+            android:enabled="false"
+            android:text="Invoice Header" />
+
+        <TextView
+            android:id="@+id/textViewIH"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:textColor="#505050"
+            android:text="show Invoice Header on the invoice."
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:layout_width="742dp"
+            android:layout_height="2dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/setline" />
+
+        <CheckBox
+            android:id="@+id/chkPmt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:checked="true"
+            android:enabled="false"
+            android:text="Payment Details" />
+
+        <TextView
+            android:id="@+id/textViewpmt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:textColor="#505050"
+            android:text="show Payment Details on the invoice like Amount received and Balance."
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:layout_width="742dp"
+            android:layout_height="2dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/setline" />
+
+        <CheckBox
+            android:id="@+id/chkPImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:checked="true"
+            android:enabled="false"
+            android:text="Product Image" />
+
+        <TextView
+            android:id="@+id/textViewPImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:textColor="#505050"
+            android:text="show Product Image on the Invoice Entry screen or not"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:layout_width="742dp"
+            android:layout_height="2dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/setline" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btnInvOptSave"
+                android:layout_width="118dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="48dp"
+                android:background="@drawable/setsave"
+                android:text="" />
+
+            <Button
+                android:id="@+id/btnInvOptCancel"
+                android:layout_width="137dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="48dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/setcancel"
+                android:text="" />
+        </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"    
+    android:background="#40664D"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout44"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#00569a"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/btnHomeScreen"
+            android:layout_marginRight="50dp"
+            android:layout_width="108dp"
+            android:layout_height="70dp"
+            android:src="@drawable/header" />
+		<Button
+            android:id="@+id/BtnMnuInvoice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/mnuinvoice"
+            />
+        
+          
+          <Button
+            android:id="@+id/BtnMnuMasters"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/mnumaster"
+             />
+        
+          
+          <Button
+            android:id="@+id/BtnMnuLists"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/mnulists"
+             />
+    </LinearLayout>
+ <TextView
+        android:id="@+id/textView100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Customer List"
+         android:layout_marginLeft="5dp"
+    	android:layout_marginRight="5dp"
+        android:textColor="#fff"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <EditText
+        android:id="@+id/btnCustSearch"
+        android:layout_width="741dp"
+        android:layout_height="39dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/search"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" >
+
+        <requestFocus />
+    </EditText>
+
+    <ListView
+        android:id="@+id/lvList"
+        android:layout_width="fill_parent"
+        android:textColor="#000" 
+        android:layout_height="match_parent" >
+    </ListView>
+
+</LinearLayout>

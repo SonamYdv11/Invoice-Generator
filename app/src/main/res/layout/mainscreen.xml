@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/theme"
+    android:orientation="vertical" >
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout44"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00569a"
+        android:visibility="gone"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/btnHomeScreen"
+            android:layout_marginRight="50dp"
+            android:layout_width="108dp"
+            android:layout_height="70dp"
+            android:src="@drawable/header" />
+        <TextView
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vyapar"
+            android:layout_gravity="center|left"
+            android:textColor="#FFFFFF"
+            android:textSize="40dp"/>
+    </LinearLayout>
+
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/simpleTableLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="5dp"
+        android:stretchColumns="1"> <!-- stretch the second column of the layout-->
+        <TableRow
+            android:layout_width="0dp"
+            android:layout_height="fill_parent">
+            <ImageButton
+                android:id="@+id/btninvoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/invoice"         />
+
+            <ImageButton
+                android:id="@+id/btnproducts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:src="@drawable/shopping" />
+        </TableRow>
+        <TableRow
+            android:layout_width="0dp"
+            android:layout_height="fill_parent">
+            <ImageButton
+                android:id="@+id/btncompany"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|top"
+                android:src="@drawable/company" />
+
+            <ImageButton
+                android:id="@+id/btncustomer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:background="@android:color/transparent"
+                android:src="@drawable/customers" />
+        </TableRow>
+        <TableRow
+            android:layout_width="0dp"
+            android:layout_height="fill_parent">
+            <ImageButton
+                android:id="@+id/btnsupplier"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|top"
+                android:src="@drawable/supplier" />
+
+            <ImageButton
+                android:id="@+id/btnfinancials"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+
+                android:src="@drawable/financials" />
+        </TableRow>
+        <TableRow
+            android:layout_width="0dp"
+            android:layout_height="fill_parent">
+            <ImageButton
+                android:id="@+id/btnhelp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:src="@drawable/help" />
+
+            <ImageButton
+                android:id="@+id/btnabout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:src="@drawable/aboutus" />
+        </TableRow>
+
+    </TableLayout>
+
+
+
+
+    <!--</GridLayout>-->
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#e5e5e5"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/btnsetting"
+            android:layout_width="378dp"
+            android:layout_height="105dp"
+            android:visibility="gone"
+            android:src="@drawable/setting" />
+
+        <ImageButton
+            android:id="@+id/btnfolders"
+            android:layout_width="420dp"
+            android:layout_height="105dp"
+            android:visibility="gone"
+            android:src="@drawable/folders" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@android:dimen/app_icon_size"
+        android:layout_alignParentBottom="true">
+        <TextView
+            android:id="@+id/txtfooter"
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:background="#000"
+            android:linksClickable="true"
+            android:layout_gravity="bottom"
+            android:textAlignment="center"
+            android:textColor="#ffff"
+            android:textSize="15dp"
+            android:layout_alignParentBottom="true"
+            android:text="Copy right@2011 All rights Reserved to jK Designs" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="CreateIvoice"
+        android:id="@+id/createInvoiceMenu"
+        android:icon="@drawable/create_options"
+        app:showAsAction="always">
+        <menu>
+            <item android:id="@+id/createInvoice"
+                android:icon="@drawable/ic_details"
+                android:title="Create Invoice"
+                app:showAsAction="never" />
+            <item android:id="@+id/createProducts"
+                android:icon="@drawable/ic_products"
+                android:title="Create products"
+                app:showAsAction="never" />
+            <item android:id="@+id/mail1231sd23"
+                android:icon="@drawable/ic_customer"
+                android:title="Create customer"
+                app:showAsAction="never" />
+            <item android:id="@+id/createCompany"
+                android:icon="@drawable/ic_company"
+                android:title="Create company"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+
+    <item android:id="@+id/ReportMenu"
+        android:icon="@drawable/reports_options"
+        android:title="Reports"
+        app:showAsAction="ifRoom">
+
+    </item>
+
+    <item android:id="@+id/login"
+        android:title="logout"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/about_us"
+        android:icon="@drawable/invoices2"
+        android:title="About us"
+        app:showAsAction="never" />
+
+
+
+</menu>
